@@ -34,7 +34,8 @@ Text generation is a process where an AI system produces written content, imitat
 ## Results and Analysis:
 1. **Ranked Table:**
 - Explore detailed ranked results in summarization_table_result.csv:
-| Model            | Model_size_GB | Inference_Time_ms | BLEU_Score | Fact_Checking_Score_(0-100) |
+  
+|       Model      | Model_size_GB | Inference_Time_ms | BLEU_Score | Fact_Checking_Score_(0-100) |
 |------------------|---------------|-------------------|------------|-----------------------------|
 | T5-base          | 0.7           | 1.5               | 37.4       | 85                          |
 | GPT-2            | 1.5           | 0.8               | 35.8       | 75                          |
