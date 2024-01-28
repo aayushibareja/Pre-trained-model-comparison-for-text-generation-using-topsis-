@@ -45,4 +45,7 @@ Text generation is a process where an AI system produces written content, imitat
 
 2. **Bar Chart:**
 The bar chart visually represents the performance metrics of each model, providing an easy-to-understand comparison.
+![Alt Text](BarChart.png)
+
+
 
