@@ -34,13 +34,13 @@ Text generation is a process where an AI system produces written content, imitat
 1. **Ranked Table:**
 - Explore detailed ranked results in summarization_table_result.csv:
   
-|       Model      | Model_size_GB | Inference_Time_ms | BLEU_Score | Fact_Checking_Score_(0-100) |
-|------------------|---------------|-------------------|------------|-----------------------------|
-| T5-base          | 0.7           | 1.5               | 37.4       | 85                          |
-| GPT-2            | 1.5           | 0.8               | 35.8       | 75                          |
-| BLOOM            | 3.9           | 2.1               | 42.1       | 82                          |
-| Bart Large       | 3             | 2.5               | 40.3       | 83                          |
-| Jurassic-1 Jumbo | 18.6          | 3.8               | 44.2       | 88                          |
+| Model            | Model_size_GB | Inference_Time_ms | BLEU_Score | Fact_Checking_Score_(0-100) | TOPSIS_Score | Rank |
+| ---------------- | ------------- | ----------------- | ---------- | --------------------------- | ------------ | ---- |
+| T5-base          | 0.7           | 1.5               | 37.4       | 85                          | 0.920279     | 1    |
+| GPT-2            | 1.5           | 0.8               | 35.8       | 75                          | 0.458519     | 2    |
+| BLOOM            | 3.9           | 2.1               | 42.1       | 82                          | 0.149159     | 4    |
+| Bart Large       | 3             | 2.5               | 40.3       | 83                          | 0.202173     | 3    |
+| Jurassic-1 Jumbo | 18.6          | 3.8               | 44.2       | 88                          | 0.006171     | 5    |
 
 2. **Bar Chart:**
 The bar chart visually represents the performance metrics of each model, providing an easy-to-understand comparison.
