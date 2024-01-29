@@ -2,8 +2,7 @@
 ```mermaid
 graph TD;
   Start --> LoadData;
-  LoadData --> PreprocessText;
-  PreprocessText --> ChooseMetrics;
+  LoadData --> ChooseMetrics;
   ChooseMetrics --> ApplyTOPSIS;
   ApplyTOPSIS --> RankModels;
   RankModels --> VisualizeResults;
@@ -11,7 +10,7 @@ graph TD;
 ```
 
 ## Overview
-Text generation is a process where an AI system produces written content, imitating human language patterns and styles. The process involves generating coherent and meaningful text that resembles natural human communication.This project focuses on comparing the performance of various text summarization models to help users choose the most suitable model for their specific needs.
+Text generation is a process where an AI system produces written content, imitating human language patterns and styles. The process involves generating coherent and meaningful text that resembles natural human communication.This project focuses on comparing the performance of various text generation models to help users choose the most suitable model for their specific needs.
 
 ## Key Features:
 
